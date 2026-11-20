@@ -1,0 +1,16 @@
+<frozen importlib._bootstrap>:491: RuntimeWarning: The global interpreter lock (GIL) has been enabled to load module '_brotli', which has not declared that it can run safely without the GIL. To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.
+New version of Solara available: 1.66.3. You have 1.58.2. Please upgrade using:
+	$ pip install "solara==1.66.3"
+Solara server is starting at [4;94mhttp://127.0.0.1:8765[0m
+/opt/miniconda3/envs/keke=3.11/lib/python3.14t/site-packages/solara/server/starlette.py:578: UserWarning: Cookies with samesite=none require https, but according to the asgi framework, the scheme is 'http'
+and the x-forwarded-proto header is 'http'. We will fallback to samesite=lax.
+
+If you embed solara in an iframe, make sure you forward the x-forwarded-proto header correctly so that the session cookie can be set.
+
+See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite for more information on samesite cookies.
+
+Also check out the following Solara documentation:
+ * https://solara.dev/documentation/getting_started/deploying/self-hosted
+ * https://solara.dev/documentation/advanced/howto/embed
+
+  warnings.warn(f"""Cookies with samesite=none require https, but according to the asgi framework, the scheme is {request.scope["scheme"]!r}

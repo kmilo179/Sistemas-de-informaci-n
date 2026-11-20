@@ -1,0 +1,17 @@
+{
+ "organizacion": "Subdirección de Aseo de una gobernación (caso guiado)",
+ "necesidad": "Saber cada mes cuánto recoge cada municipio para decidir dónde reforzar la recolección",
+ "quien_decide": "Subdirectora de aseo",
+ "hardware": "Computadores de la subdirección y el servidor donde corre la app",
+ "software": "App Solara, módulo datos.py y el motor SQLite",
+ "datos": "Una fila = lo que un municipio recogió de un material en un mes",
+ "personas": "Operador que registra, analista que consolida, subdirectora que decide",
+ "tic": "La red de la gobernación y el navegador por el que se abre la app",
+ "proceso": [
+  "El operador registra la recolección",
+  "La app consolida por municipio",
+  "La subdirectora revisa el reporte",
+  "Se reasignan rutas"
+ ],
+ "tipo": "MIS"
+}
